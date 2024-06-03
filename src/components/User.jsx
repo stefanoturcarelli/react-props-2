@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 User.propTypes = {
   name: PropTypes.string,
-  age: PropTypes.number,
+  age: PropTypes.number.isRequired,
   email: PropTypes.string,
   func: PropTypes.func,
 };
