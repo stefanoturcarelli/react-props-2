@@ -1,6 +1,7 @@
 import React from "react";
 
-function Button(increment = (f) => f) {
+// Button is getting the 'increment' function as a prop
+function Button({ increment = (f) => f }) {
   return <button onClick={increment}>Increment</button>;
 }
 
