@@ -1,3 +1,13 @@
+import React from "react";
+import PropTypes from "prop-types";
+
+User.propTypes = {
+  name: PropTypes.string,
+  age: PropTypes.number,
+  email: PropTypes.string,
+  func: PropTypes.func,
+};
+
 // Props default values
 function User({
   name = "John Doe",
